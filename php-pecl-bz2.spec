@@ -23,13 +23,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 %{_modname} is an extension to create and parse bzip2 compressed data.
 
-This module has in PECL status: %{_status}
+This extension has in PEAR status: %{_status}
 
 %description -l pl
 %{_modname} jest rozszerzeniem udostêpniaj±cym obs³ugê danych
 skompresowanych do formatu bzip2.
 
-Ten modu³ ma w PECL status: %{_status}
+To rozszerzenie ma w PEAR status: %{_status}
 
 %prep
 %setup -q -c
