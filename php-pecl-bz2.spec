@@ -8,7 +8,7 @@ Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	ef026c998291a386c69f62891e69d5bb
+# Source0-md5:	f6af3f931c582c90417177b66197f9cd
 URL:		http://pear.php.net/
 BuildRequires:	bzip2-devel
 BuildRequires:	libtool
