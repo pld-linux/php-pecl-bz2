@@ -21,10 +21,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		extensionsdir	%{_libdir}/php
 
 %description
-bla
+%{_modname} is an extension to create and parse bzip2 compressed data.
+
+This module has in PECL status: %{_status}
 
 %description -l pl
-bla
+%{_modname} jest rozszerzeniem udostêpniaj±cym obs³ugê danych
+skompresowanych do formatu bzip2.
+
+Ten modu³ ma w PECL status: %{_status}
 
 %prep
 %setup -q -c
