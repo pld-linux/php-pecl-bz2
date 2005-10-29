@@ -6,7 +6,7 @@ Summary:	%{_modname} - A bzip2 management system
 Summary(pl):	%{_modname} - Zarz±dzanie plikami bzip2
 Name:		php-pecl-%{_modname}
 Version:	1.0
-Release:	2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
@@ -14,7 +14,7 @@ Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 URL:		http://pecl.php.net/package/bz2/
 BuildRequires:	bzip2-devel
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.238
+BuildRequires:	rpmbuild(macros) >= 1.254
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
 Obsoletes:	php-pear-%{_modname}
