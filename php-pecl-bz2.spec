@@ -6,7 +6,7 @@ Summary:	%{_modname} - A bzip2 management system
 Summary(pl):	%{_modname} - Zarz±dzanie plikami bzip2
 Name:		php-pecl-%{_modname}
 Version:	1.0
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
