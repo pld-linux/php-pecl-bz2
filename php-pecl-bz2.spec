@@ -1,7 +1,7 @@
 %define		_modname	bz2
 %define		_status		stable
 Summary:	%{_modname} - A bzip2 management system
-Summary(pl.UTF-8):   %{_modname} - Zarządzanie plikami bzip2
+Summary(pl.UTF-8):	%{_modname} - Zarządzanie plikami bzip2
 Name:		php-pecl-%{_modname}
 Version:	1.0
 Release:	6
