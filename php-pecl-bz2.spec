@@ -1,7 +1,7 @@
 %define		_modname	bz2
 %define		_status		stable
 Summary:	%{_modname} - A bzip2 management system
-Summary(pl):	%{_modname} - Zarz±dzanie plikami bzip2
+Summary(pl.UTF-8):   %{_modname} - ZarzÄ…dzanie plikami bzip2
 Name:		php-pecl-%{_modname}
 Version:	1.0
 Release:	6
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-%{_modname} jest rozszerzeniem udostêpniaj±cym obs³ugê danych
+%description -l pl.UTF-8
+%{_modname} jest rozszerzeniem udostÄ™pniajÄ…cym obsÅ‚ugÄ™ danych
 skompresowanych do formatu bzip2.
 
 To rozszerzenie ma w PECL status: %{_status}.
